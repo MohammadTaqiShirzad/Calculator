@@ -47,7 +47,7 @@ const Calculator = () => {
     setHasDote(resultStr.includes("."));
   };
   return (
-    <div className="w-screen h-screen bg-[url('/bg.jpg')] bg-cover flex justify-center items-center ">
+    <div className="w-screen bg-gray-900/50 h-screen bg-[url('/bg.jpg')] bg-cover flex justify-center items-center ">
       <div className=" w-9/10 sm:w-2/3 md:w-1/2 lg:w-1/3 px-8 py-10 mx-auto rounded-xl shadow shadow-gray-400 flex flex-col gap-8 bg-gray-900/70 text-gray-300 ">
         <h1 className="text-4xl font-semibold text-end shadow shadow-gray-500 rounded-2xl py-6 px-4 overflow-hidden">
           {num ? num : 0}
